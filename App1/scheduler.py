@@ -30,5 +30,5 @@ def send_combined_report():
 
 def start_scheduler():
     scheduler = BackgroundScheduler()
-    scheduler.add_job(send_combined_report, 'cron', hour=23, minute=30)  # Schedule to run at 10:00 AM every day
+    scheduler.add_job(send_combined_report, 'cron', hour=20, minute=30)  # Schedule to run at 10:00 AM every day
     scheduler.start()
