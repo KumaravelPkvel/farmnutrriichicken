@@ -1,0 +1,1 @@
+web: gunicorn farmnutrichicken.wsgi --log-file -
